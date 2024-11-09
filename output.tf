@@ -13,3 +13,7 @@ output "eks_subnet_public_1a_id" {
 output "eks_subnet_public_1b_id" {
   value = module.eks_network.subnet_public_id_1b
 }
+
+output "oidc" {
+  value = module.eks_cluster.oidc
+}
