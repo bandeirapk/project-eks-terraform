@@ -35,5 +35,3 @@ resource "aws_route_table_association" "eks_public_route_table_association_1b" {
   subnet_id      = aws_subnet.eks_subnet_public_1b.id
   route_table_id = aws_route_table.eks_public_route_table.id
 }
-
-# PRIVATE ROUTE TABLE
