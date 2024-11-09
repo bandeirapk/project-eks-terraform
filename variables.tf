@@ -3,3 +3,7 @@ variable "cidr_block" {
   type        = string
 }
 
+variable "project_name" {
+  description = "Project name to be used to name the resources (Name tag)"
+  type        = string
+}
