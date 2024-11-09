@@ -25,3 +25,4 @@ resource "aws_subnet" "eks_subnet_private_1b" {
     }
   )
 }
+
