@@ -13,7 +13,6 @@ variable "public_subnet_1a" {
   type        = string
 }
 
-
 variable "public_subnet_1b" {
   description = "Public subnet in the first availability zone to deploy the EKS cluster"
   type        = string
