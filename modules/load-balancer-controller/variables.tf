@@ -7,3 +7,8 @@ variable "tags" {
   description = "Tags to be applied to the resources"
   type        = map(string)
 }
+
+variable "oidc" {
+  description = "OIDC provider URL"
+  type        = string
+}
