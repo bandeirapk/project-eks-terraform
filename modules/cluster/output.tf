@@ -3,7 +3,7 @@ output "arn_role_name" {
 }
 
 output "oidc" {
-  value = data.tls_certificate.eks_oidc_tls_certificate
+  value = aws_eks_cluster.eks_cluster.identity[0].oidc[0].issuer
 }
 
 output "cluster_name" {
